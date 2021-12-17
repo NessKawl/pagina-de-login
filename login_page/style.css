@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+body {
+    background-color: rgba(131, 255, 131, 0.425);
+}
+
+#menu-login {
+    background-image: linear-gradient(to right, burlywood, rgb(221, 158, 76));
+    margin: auto;
+    margin-top: 75px;
+    width: 1100px;
+    height: 600px;
+    box-shadow: 10px 10px 15px rgb(150, 124, 91);
+    border-radius: 15px;
+}
+
+#login {
+    position: relative;
+    background-image: linear-gradient(to bottom, white, rgb(207, 191, 191));
+    width: 500px;
+    height: 600px;
+    left: 600px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h1 {
+    position: relative;
+    text-align: center  ;
+    font: normal 3em Impact, 'Arial Narrow Bold', sans-serif;
+    top: 10px;
+}
+
+#login-facebook {
+    position: relative;
+    background-color: blue;
+    width: 200px;
+    height: 50px;
+    left: 30%;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    font: bold 18px Arial, Verdana, sans-serif;
+    top: 14px;   
+}
+
+#login-google {
+    position: relative;
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    left: 30%;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    font: bold 19px Arial, Verdana, sans-serif;
+    top: 13px;   
+    display: block;
+    margin-block: 10px;
+}
+
+#new-account {
+    background-color: gray;
+    margin: auto;    
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#create-account {
+    position: relative;
+    background-color: gray;
+    color: white;
+    width: 200px;
+    height: 50px;
+    left: 30%;
+    border-radius: 25px;
+    text-align: center;
+    font: bold 20px Arial, Verdana, sans-serif;
+    top: 13px;   
+}
+
+#email {
+    position: relative;
+    left: 22%;
+    top: 70px;
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+#senha {
+    position: relative;
+    left: 22%;
+    top: 100px;
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+#entrar {
+    background-color: rgba(76, 0, 130, 0.747);
+    color: whitesmoke;
+    position: relative;
+    text-align: center;
+    font: bold 23px Arial, Verdana, sans-serif;
+    left: 7%;
+    top: 28%;       
+    width: 85px;
+    height: 35px;
+    border-radius: 15px;
+}
+
+.lembrar-senha {
+    position: relative;
+    top: 18.5%;
+    left: 24%;
+}
+
+hr {
+    position: relative;
+    background-color: burlywood;
+    top: 40px;
+    height: 2px;
+}
+
+/*=============== Página Cadastro ================*/
+
+body {
+    background-color: rgba(131, 255, 131, 0.425);
+}
+
+#menu-cadastro {
+    background-image: linear-gradient(to bottom, white, rgb(207, 191, 191));
+    margin: auto;
+    width: 500px;
+    height: 700px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgb(156, 152, 146);
+}
+
+#e-mail-cadastro {
+    position: relative;
+    left: 20%;
+    width: 280px;
+    height: 40px;
+    border-radius: 8px; 
+}
+
+#senha-cadastro {
+    position: relative;
+    left: 20%;
+    width: 280px;
+    height: 40px;
+    margin-block: 20px;
+    display: block;
+    border-radius: 8px;
+}
+
+#confirmar-senha {
+    position: relative;
+    left: 20%;
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.termos-de-serviço {
+    font: normal 16px Arial, Verdana, sans-serif;
+    position: relative;
+    top: 3%;
+    left: 20%;
+}
+
+#enviar {
+    background-color: rgba(76, 0, 130, 0.747);
+    color: whitesmoke;
+    position: relative;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    font: bold 25px Arial, Verdana, sans-serif;
+    left: 7%;
+    top: 14%;       
+    border-radius: 15px;
+}
+
+#hr-2 {
+    position: relative;
+     top: 11%;
+}
+
+#login-facebook-2 {
+    position: relative;
+    background-color: blue;
+    width: 300px;
+    height: 70px;
+    left: 20%;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    font: bold 24px Arial, Verdana, sans-serif;
+    top: 14%;   
+}
+
+#login-google-2 {
+    position: relative;
+    background-color: red;
+    width: 300px;
+    height: 70px;
+    left: 20%;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    font: bold 25px Arial, Verdana, sans-serif;
+    top: 15%;   
+    display: block;
+    margin-block: 20px;
+}
+
+.direitos-autorais {
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
